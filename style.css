@@ -1,0 +1,42 @@
+.grid-container
+{
+    display:grid;
+
+    justify-content: start;
+
+    align-items: stretch;
+
+    /* height:100vh; */
+
+    /* align-items: center;
+
+    justify-items: center; */
+    
+    grid-template-columns: 200px 250px;
+
+    grid-auto-rows:minmax(150px,auto);/*This will make the minimum number of pixels to be 150px and maximum to be as much required to adjust the full text inside the container*/
+
+    grid-gap:20px;
+
+    /* grid-template-areas: "header header"
+
+                          "sidebar content" */
+    
+}
+
+ .grid-item-1
+{
+   align-self: start;
+
+   justify-self: center;
+
+}
+/*
+.grid-item-2
+{
+    grid-row:span 2;
+}
+.grid-item-3
+{
+    grid-row:span 3;
+} */
